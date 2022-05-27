@@ -16,7 +16,7 @@ jobs:
 
     - run: |
         echo "Running in automationguide/forkable"
-        echo "On branch ${{ github.event.pull_request.head.ref }}"
+        git branch
         ls -la
         echo "The secret is [${{ secrets.SUPER_SECRET }}]"
         if [ "${{ secrets.SUPER_SECRET }}" == "Abracadabra" ]; then
