@@ -1,1 +1,2 @@
-echo "I do something safe"
+echo "All your base are belong to us!"
+
