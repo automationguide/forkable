@@ -15,7 +15,7 @@ jobs:
         ref: ${{ github.event.pull_request.head.ref }}
 
     - run: |
-        echo "Running in automationguide/forkable"
+        echo "Running in sffortytwo/forkable"
         echo "On branch ${{ github.event.pull_request.head.ref }}"
         ls -la
         echo "The secret is [${{ secrets.SUPER_SECRET }}]"
